@@ -1,6 +1,6 @@
 # VLSI-LAB-EXPERIMENTS
 
-# EXP 1: Simulation of Logic gates,Adders and Subractors.
+# EXP 1: Simulation of Logic gates,Adders and Subractors
 
 Date:
 
