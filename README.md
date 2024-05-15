@@ -4,11 +4,11 @@
 
 Date:
 
-AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
+**AIM:** To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
-APPARATUS REQUIRED: Xilinx 14.7 Spartan6 FPGA
+**APPARATUS REQUIRED:** Xilinx 14.7 Spartan6 FPGA
 
-PROCEDURE: 
+**PROCEDURE:** 
 
 STEP:1 Start the Xilinx navigator, Select and Name the New project. 
 
@@ -200,6 +200,6 @@ OUTPUT:
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/5bd945ef-69eb-4e90-8a2a-ec2569dc4e7f)
 
-RESULT: Hence, the simulation and synthesis of Logic Gates, Adders and Subtractors is verified using Xilinx ISE.
+**RESULT:** Hence, the simulation and synthesis of Logic Gates, Adders and Subtractors is verified using Xilinx ISE.
 
 
