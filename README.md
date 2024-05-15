@@ -2,7 +2,7 @@
 
 # EXP 1: Simulation of Logic gates,Adders and Subractors
 
-Date:
+**Date:**
 
 **AIM:** To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
@@ -34,14 +34,13 @@ STEP:11 Load the Bit file into the SPARTAN 6 FPGA
 
 STEP:12 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
+**Logic Gates:**
 
-Logic Diagram :
-
-Logic Gates:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
-Verilog code:
+**Verilog code:**
 
 ```
 module allgates(a,b,x1,x2,x3,x4,x5,x6,x7);
@@ -57,17 +56,17 @@ not g7(x7,a);
 endmodule
 ```
 
-Output:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/bff624d5-d344-42dd-99ed-3efa4098cd23)
 
-Half Adder:
+**Half Adder:**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
-Verilog code:
+**Verilog code:**
 
 ```
 module halfadder(x,y,sum,carry);
@@ -78,18 +77,18 @@ and g2(carry,x,y);
 endmodule
 ```
 
-Output:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/098233ef-062d-47c0-be92-382baf59fc5e)
 
 
-Full adder:
+**Full adder:**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
-Verilog code:
+**Verilog code:**
 
 ```
 module fulladder(a,b,cin,sum,carry);
@@ -104,18 +103,18 @@ or g5(carry,w3,w2);
 endmodule
 ```
 
-Output:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/2336ffb8-eb37-44de-b35e-051ce196d1f9)
 
-Half Subtractor:
+**Half Subtractor:**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module halfsub(x,y,d,b);
@@ -128,18 +127,18 @@ and g3(b,x1,y);
 endmodule
 ```
 
-Output:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/c3e38ee4-f433-4b96-bf9d-a5c6205c0a3c)
 
 
-Full Subtractor:
+**Full Subtractor:**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
 
-Verilog Code:
+**Verilog Code:**
 
 ```
 module fullsub(a,b,bin,bout,diff);
@@ -156,17 +155,17 @@ or g7(bout,w5,w2);
 endmodule
 ```
 
-Output:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/ae8d6bd0-cc02-4f24-9e57-a221608326f2)
 
-8 Bit Ripple Carry Adder:
+**8 Bit Ripple Carry Adder:**
 
-Logic Diagram:
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module fa(a,b,cin,sum,carry);
@@ -196,7 +195,7 @@ fa g7(.a(a[6]),.b(b[6]),.cin(c6),.sum(sum[6]),.carry(c7));
 fa g8(.a(a[7]),.b(b[7]),.cin(c7),.sum(sum[7]),.carry(cout));
 endmodule 
 ```
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-1/assets/147235565/5bd945ef-69eb-4e90-8a2a-ec2569dc4e7f)
 
