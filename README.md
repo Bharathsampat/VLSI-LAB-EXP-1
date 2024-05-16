@@ -90,11 +90,6 @@ endmodule
 
 
 
-
-
-
-
-
 **Verilog code:**
 
 ```
